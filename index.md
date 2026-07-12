@@ -28,6 +28,7 @@ research directions.
 - [Data Collection]({{ site.baseurl }}/methodology/data-collection.html)
 - [Search Strategy]({{ site.baseurl }}/methodology/search-strategy.html)
 - [Data Preprocessing]({{ site.baseurl }}/methodology/preprocessing.html)
+- [Study Selection and Multi-Stage Filtering]({{ site.baseurl }}/methodology/study-selection.html)
 - [Backward and Forward Snowballing]({{ site.baseurl }}/methodology/snowballing.html)
 - [Annotation Schema]({{ site.baseurl }}/methodology/annotation-schema.html)
 - [LLM-Assisted Annotation]({{ site.baseurl }}/methodology/llm-annotation.html)
