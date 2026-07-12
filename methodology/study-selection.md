@@ -199,7 +199,7 @@ This final step reduced the corpus from **127 to 125 primary studies**.
 
 The complete selection process can be summarized as follows:
 
-```text
+
 Initial records: 3,905
         ↓
 After metadata normalization and deduplication: 1,996
