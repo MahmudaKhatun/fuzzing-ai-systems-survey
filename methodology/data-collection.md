@@ -76,57 +76,19 @@ and eligibility assessment.
 
 ## Distribution Across Scholarly Sources
 
-The initial search retrieved **3,905 records**.
+The initial literature search retrieved **3,905 records** across five
+scholarly sources. Figure 2 shows the source-wise distribution of the
+collected records.
 
-<div style="overflow-x:auto;">
+![Distribution of collected records across scholarly sources]({{ site.baseurl }}/assets/images/database-source-distribution.png)
 
-<table>
-<thead>
-<tr>
-<th>Scholarly source</th>
-<th style="text-align:center;">Number of records</th>
-</tr>
-</thead>
+*Figure 2. Distribution of the 3,905 records collected across the five
+scholarly sources used in the initial literature search.*
 
-<tbody>
-<tr>
-<td>Semantic Scholar</td>
-<td style="text-align:center;">1,242</td>
-</tr>
-
-<tr>
-<td>ACM Digital Library</td>
-<td style="text-align:center;">1,000</td>
-</tr>
-
-<tr>
-<td>Google Scholar</td>
-<td style="text-align:center;">844</td>
-</tr>
-
-<tr>
-<td>ScienceDirect</td>
-<td style="text-align:center;">619</td>
-</tr>
-
-<tr>
-<td>Scopus</td>
-<td style="text-align:center;">200</td>
-</tr>
-
-<tr>
-<td><strong>Total</strong></td>
-<td style="text-align:center;"><strong>3,905</strong></td>
-</tr>
-</tbody>
-</table>
-
-</div>
-
-
-Semantic Scholar contributed the largest number of records, followed by ACM
-Digital Library and Google Scholar. ScienceDirect contributed 619 records,
-while Scopus contributed 200 records because of tool and export constraints.
+Semantic Scholar contributed the largest number of records (1,242), followed
+by ACM Digital Library (1,000), Google Scholar (844), ScienceDirect (619),
+and Scopus (200). The smaller Scopus count reflects tool and export
+constraints.
 
 Using multiple sources improved coverage and reduced dependence on the
 indexing behavior or retrieval limits of any single database.
