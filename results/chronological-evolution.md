@@ -28,7 +28,7 @@ fuzzing techniques.
 
 ## Chronological Overview
 
-![Chronological overview of AI-system fuzzing]({{ site.baseurl }}/assets/images/Chronological Overview with reference.png)
+![Chronological overview of AI-system fuzzing]({{ site.baseurl }}/assets/images/chronological-overview.png)
 
 ## Interpretation
 
