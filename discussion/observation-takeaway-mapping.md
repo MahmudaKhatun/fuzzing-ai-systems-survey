@@ -227,3 +227,11 @@ Summary of key observations from RQ1--RQ4 and their mapping to take-away message
 </table>
 
 </div>
+
+
+> **Note:** T5 is not represented by a separate observation in this table
+> because it synthesizes recurring limitations, observed gaps, and open
+> challenges identified across RQ1--RQ4 rather than arising from a single
+> result-level observation. These cross-cutting issues primarily concern
+> reproducibility, benchmarking, scalability, generalization, and
+> cross-study comparability.
