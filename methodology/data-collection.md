@@ -13,22 +13,153 @@ survey *Fuzzing AI Systems: Foundations, Techniques, and Open Challenges*.
 The survey identified candidate studies through a systematic search conducted
 across multiple scholarly sources. The search covered the period from
 January 2015 to February 2026 and was followed by metadata consolidation,
-deduplication, multi-stage screening, quality assessment, and backward and
-forward snowballing.
+normalization, deduplication, multi-stage screening, quality assessment, and
+backward and forward snowballing.
 
-## Data-Collection Workflow
+## Data Sources
 
-The complete data-collection workflow and source-level details are presented
-below.
+We searched five scholarly sources to improve coverage:
 
-## Search Sources
+- ACM Digital Library
+- ScienceDirect
+- Scopus
+- Semantic Scholar
+- Google Scholar
 
-*Extended source descriptions will be added here.*
+These sources collectively cover major publication venues in software
+engineering, software testing, security, systems, and artificial intelligence.
 
-## Collection and Export Process
+ACM Digital Library and ScienceDirect provided direct access to many relevant
+conference and journal publications. Scopus, Semantic Scholar, and Google
+Scholar broadened coverage and helped identify studies that were not indexed
+consistently across individual publisher databases. IEEE-related publications
+were also captured through indexing services such as Scopus and Google Scholar.
 
-*Extended collection and export details will be added here.*
+## Collection Process
 
-## Candidate-Study Counts
+The collection procedure differed across sources because of variations in
+search interfaces, API availability, query syntax, and export mechanisms.
 
-*The stage-wise study counts and supporting details will be added here.*
+- **ACM Digital Library:** searched through the advanced search interface;
+  records were exported in CSV format.
+- **ScienceDirect:** searched through the Elsevier Search API.
+- **Semantic Scholar:** queried through an automated workflow using the
+  Semantic Scholar API.
+- **Google Scholar:** queried and exported using Publish or Perish.
+- **Scopus:** queried and exported using Publish or Perish.
+
+All exported records were standardized into a common tabular format containing
+the following fields:
+
+- Title
+- Authors
+- Publication year
+- Source
+- Abstract
+- DOI
+- URL
+- Citation information
+
+The normalized records were then consolidated into a single candidate dataset
+using a Python-based processing pipeline.
+
+## Paper-Collection Workflow
+
+![Paper collection process used in the survey]({{ site.baseurl }}/assets/images/paper-collection-process.png)
+
+*Figure 1. Paper-collection process used to construct the preliminary candidate
+pool for the survey.*
+
+The workflow integrated records from all five scholarly sources, normalized
+their metadata, and consolidated them into a unified dataset before screening
+and eligibility assessment.
+
+## Distribution Across Scholarly Sources
+
+The initial search retrieved **3,905 records**.
+
+<div style="overflow-x:auto;">
+
+<table>
+<thead>
+<tr>
+<th>Scholarly source</th>
+<th style="text-align:center;">Number of records</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>Semantic Scholar</td>
+<td style="text-align:center;">1,242</td>
+</tr>
+
+<tr>
+<td>ACM Digital Library</td>
+<td style="text-align:center;">1,000</td>
+</tr>
+
+<tr>
+<td>Google Scholar</td>
+<td style="text-align:center;">844</td>
+</tr>
+
+<tr>
+<td>ScienceDirect</td>
+<td style="text-align:center;">619</td>
+</tr>
+
+<tr>
+<td>Scopus</td>
+<td style="text-align:center;">200</td>
+</tr>
+
+<tr>
+<td><strong>Total</strong></td>
+<td style="text-align:center;"><strong>3,905</strong></td>
+</tr>
+</tbody>
+</table>
+
+</div>
+
+
+Semantic Scholar contributed the largest number of records, followed by ACM
+Digital Library and Google Scholar. ScienceDirect contributed 619 records,
+while Scopus contributed 200 records because of tool and export constraints.
+
+Using multiple sources improved coverage and reduced dependence on the
+indexing behavior or retrieval limits of any single database.
+
+## Metadata Normalization and Deduplication
+
+Because metadata formats differed across sources, the exported records were
+normalized before filtering and deduplication.
+
+The preprocessing workflow included:
+
+1. normalization of common metadata fields, including title, authors, year,
+   venue, abstract, DOI, and URL;
+2. title-based duplicate detection;
+3. DOI-based matching and deduplication; and
+4. consolidation of duplicate records across scholarly sources.
+
+After preprocessing and deduplication, **1,996 unique records** remained for
+screening.
+
+## Relationship to the Main Selection Process
+
+The 1,996 unique records formed the starting point for the multi-stage
+screening process reported in the main paper.
+
+Subsequent stages included:
+
+- automated keyword filtering;
+- precision-oriented filtering;
+- manual title and abstract screening;
+- backward and forward snowballing;
+- quality and eligibility assessment;
+- full-text screening; and
+- duplicate-version removal.
+
+These steps resulted in the final corpus of **125 primary studies**.
