@@ -7,121 +7,153 @@ title: Study Selection and Multi-Stage Filtering
 
 [← Back to Home]({{ site.baseurl }}/)
 
-This page provides extended details of the screening, snowballing,
-eligibility assessment, and final study-selection process used in the survey.
+[← Data Collection]({{ site.baseurl }}/methodology/data-collection.html)
 
-## Selection Overview
+This page provides extended details of the inclusion and exclusion criteria,
+multi-stage screening process, and snowballing-based expansion used to identify
+the final corpus of primary studies.
 
-The initial search retrieved **3,905 records**. After metadata normalization
-and deduplication, **1,996 unique records** remained for screening.
+## Study Selection: Inclusion and Exclusion Criteria
 
-The selection process then proceeded through multiple stages:
+We defined inclusion and exclusion criteria to identify studies that were
+directly relevant to fuzzing AI systems.
 
-1. Automated keyword filtering
-2. Precision-oriented filtering
-3. Manual title and abstract screening
-4. Backward and forward snowballing
-5. Quality and eligibility assessment
-6. Full-text eligibility screening
-7. Duplicate-version removal
+### Inclusion Criteria
 
-## Stage 1: Automated Keyword Filtering
+A study was included if it satisfied the following criteria:
 
-The first stage used AI-related and fuzzing-related keywords to remove clearly
-irrelevant records.
+- It was published within the January 2015–February 2026 search window.
+- It proposed, evaluated, or empirically analyzed a fuzzing technique targeting
+  AI systems, including ML/DL/LLM models, DL frameworks and libraries, AI
+  compilers/backends, or system-level AI applications.
+- It involved a recognizable fuzzing-style workflow, such as automated input
+  generation or mutation, target execution, monitoring or feedback, and failure
+  reporting.
+- It provided sufficient technical detail to support metadata extraction and
+  classification.
 
-This stage reduced the dataset from **1,996 to 1,365 records**.
+### Exclusion Criteria
 
-## Stage 2: Precision Tightening
+A study was excluded if it satisfied any of the following criteria:
 
-A stricter filtering stage required clearer evidence of both an AI-system
-context and a fuzzing-related testing methodology.
+- It used AI, ML, DL, or LLMs to improve fuzzing of conventional software,
+  rather than fuzzing AI systems.
+- It targeted AI systems but did not use a fuzzing-style testing approach.
+- It was unrelated to AI-system testing.
+- It focused only on adversarial-attack optimization without a fuzzing-style
+  workflow.
+- It was a survey, review article, book chapter, short abstract, poster,
+  tutorial, or other non-primary study.
+- It was a short workshop paper that did not provide sufficient methodological
+  or evaluation detail for systematic annotation.
+- It was outside the selected publication period.
+- It was not written in English.
+- It was a duplicate record or an earlier preprint version of an already
+  included published work.
 
-After this stage, **187 candidate studies** remained for manual screening.
+Using these criteria, we first screened titles and abstracts to remove clearly
+irrelevant records. We then applied the multi-stage filtering process described
+below to refine the candidate set and identify the final primary studies.
 
-## Stage 3: Manual Title and Abstract Screening
+---
 
-The titles and abstracts of the 187 candidates were manually reviewed using
-the predefined inclusion and exclusion criteria.
+## Multi-Stage Filtering
 
-The review assessed whether each study:
+We applied a multi-stage filtering process to systematically refine the
+dataset.
+
+### Stage 1: Automated Keyword Filtering
+
+An initial filtering step removed clearly irrelevant records using keyword
+matching.
+
+The filtering considered AI-related terms such as:
+
+- machine learning
+- deep learning
+- neural network
+- LLM
+- large language model
+- transformer
+- foundation model
+- model robustness
+
+These terms were combined with fuzzing-related indicators such as:
+
+- fuzz
+- fuzzing
+- fuzz testing
+- coverage-guided
+- robustness testing
+
+This stage reduced the dataset from **1,996 unique records to 1,365 records**.
+
+### Stage 2: Precision Tightening
+
+A stricter filtering stage was then applied to ensure stronger alignment with
+the survey scope.
+
+This stage required explicit evidence of both:
+
+1. an AI-system context; and
+2. a fuzzing-related testing methodology.
+
+After this step, **187 studies** remained as candidates for manual title and
+abstract screening.
+
+### Stage 3: Manual Title and Abstract Screening
+
+We manually screened the titles and abstracts of the 187 candidate studies
+using the predefined inclusion and exclusion criteria.
+
+For each candidate, we examined whether the study:
 
 - targeted an AI system;
-- used a recognizable fuzzing-style workflow;
-- involved input generation or mutation;
+- involved a recognizable fuzzing-style workflow;
+- used input generation or mutation;
 - executed the target system;
-- used monitoring, feedback, or failure signals; and
+- incorporated monitoring, feedback, or failure signals; and
 - reported relevant testing outcomes.
 
-This stage retained **45 studies**.
+When necessary, abstracts were examined in terms of their context, objective,
+approach, and findings to support a more accurate relevance assessment.
+
+This stage retained **45 studies** for further verification and inclusion.
+
+---
 
 ## Stage 4: Snowballing-Based Expansion
 
-Backward and forward snowballing were used to identify relevant studies that
-may have been missed because of indexing differences, terminology variation,
-or search-interface limitations.
+To improve recall, we complemented the database search with backward and
+forward snowballing.
 
 The snowballing process initially identified **1,854 candidate studies**.
-Automated filtering reduced this set to **254 studies**, including:
+Automated filtering reduced this set to **254 candidates**, including
+43 backward-snowballing and 211 forward-snowballing studies.
 
-- 43 backward-snowballing candidates
-- 211 forward-snowballing candidates
+After manual validation, **167 studies** were retained:
 
-After manual validation:
+- 30 from backward snowballing
+- 137 from forward snowballing
 
-- 30 backward-snowballing studies were retained
-- 137 forward-snowballing studies were retained
+Together with the 45 studies retained after manual title and abstract
+screening, this produced a combined candidate corpus of **212 studies**.
 
-Therefore, snowballing contributed **167 studies**.
+The detailed rationale, automation workflow, filtering indicators, and
+intermediate snowballing results are available on the
+[Backward and Forward Snowballing page]({{ site.baseurl }}/methodology/snowballing.html).
 
-Combining these with the 45 studies retained from manual title and abstract
-screening produced **212 candidate studies**.
+---
 
-## Quality and Eligibility Assessment
+## Summary of Intermediate Counts
 
-The 212 candidates underwent additional quality and eligibility assessment.
-
-Four studies were removed because they did not provide sufficient relevance,
-methodological clarity, evaluation detail, or eligibility as primary studies.
-
-This produced **208 candidate studies** for full-text eligibility screening.
-
-## Full-Text Eligibility Screening
-
-The 208 candidates were assessed using the complete paper text.
-
-Studies were excluded when they:
-
-- did not use a recognizable fuzzing-style workflow;
-- were only weakly related to fuzzing;
-- used AI to improve conventional software fuzzing rather than fuzzing AI
-  systems;
-- were outside the scope of AI-system testing; or
-- lacked sufficient methodological or evaluation detail.
-
-After full-text screening, **127 eligible primary-study candidates** remained.
-
-## Duplicate-Version Removal
-
-Two duplicate study versions were identified during the final consistency
-check.
-
-For each duplicate pair, the published or more complete version was retained.
-
-The final corpus therefore contained **125 primary studies**.
-
-## Summary of Study Counts
-
-| Stage | Number of studies |
+| Selection stage | Number of records/studies |
 |---|---:|
-| Initial records | 3,905 |
-| After deduplication | 1,996 |
-| After Stage 1 | 1,365 |
-| After Stage 2 | 187 |
-| After manual title/abstract screening | 45 |
-| Snowballing candidates before manual review | 254 |
-| Retained from snowballing | 167 |
-| Combined candidate set | 212 |
-| After quality and eligibility assessment | 208 |
-| After full-text eligibility screening | 127 |
-| Final primary studies | 125 |
+| Unique records after deduplication | 1,996 |
+| After Stage 1 automated filtering | 1,365 |
+| After Stage 2 precision tightening | 187 |
+| After manual title and abstract screening | 45 |
+| Initial snowballing candidate pool | 1,854 |
+| Snowballing candidates after automated filtering | 254 |
+| Retained after manual snowballing review | 167 |
+| Combined candidate corpus | 212 |
