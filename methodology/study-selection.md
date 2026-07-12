@@ -197,31 +197,7 @@ This final step reduced the corpus from **127 to 125 primary studies**.
 
 ## Final Study-Selection Outcome
 
-The complete selection process can be summarized as follows:
-
-
-Initial records: 3,905
-        ↓
-After metadata normalization and deduplication: 1,996
-        ↓
-After Stage 1 automated filtering: 1,365
-        ↓
-After Stage 2 precision tightening: 187
-        ↓
-After manual title and abstract screening: 45
-        ↓
-Retained through snowballing: 167
-        ↓
-Combined candidate corpus: 212
-        ↓
-After quality and eligibility assessment: 208
-        ↓
-After full-text eligibility screening: 127
-        ↓
-After duplicate-version removal: 125 primary studies
----
-
-## Summary of Study Counts
+The complete study-selection process is summarized below.
 
 | Selection stage | Number of records/studies |
 |---|---:|
