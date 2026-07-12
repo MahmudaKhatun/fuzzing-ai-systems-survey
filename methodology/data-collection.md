@@ -126,6 +126,6 @@ Subsequent stages included:
 
 These steps resulted in the final corpus of **125 primary studies**.
 
-Detailed screening, snowballing, eligibility assessment, and final-selection
-steps are described on the
+Detailed inclusion and exclusion criteria, screening stages, and snowballing
+procedures are available on the
 [Study Selection and Multi-Stage Filtering page]({{ site.baseurl }}/methodology/study-selection.html).
