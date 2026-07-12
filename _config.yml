@@ -1,0 +1,9 @@
+title: Fuzzing AI Systems
+description: Companion website for the survey “Fuzzing AI Systems: Foundations, Techniques, and Open Challenges.”
+
+theme: jekyll-theme-cayman
+
+url: "https://mahmudakhatun.github.io"
+baseurl: "/fuzzing-ai-systems-survey"
+
+markdown: kramdown
