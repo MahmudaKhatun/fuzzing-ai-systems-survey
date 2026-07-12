@@ -143,12 +143,89 @@ The detailed rationale, automation workflow, filtering indicators, and
 intermediate snowballing results are available on the
 [Backward and Forward Snowballing page]({{ site.baseurl }}/methodology/snowballing.html).
 
+
 ---
 
-## Summary of Intermediate Counts
+## Final Quality and Eligibility Assessment
+
+After multi-stage filtering and snowballing, the combined candidate corpus
+contained **212 studies**.
+
+We then applied additional quality and eligibility checks before full-text
+screening. Studies were re-examined when their relevance, methodological
+clarity, evaluation detail, or eligibility as primary studies required
+further verification.
+
+This assessment removed **4 studies**, resulting in **208 candidate studies**
+for full-text eligibility screening.
+
+## Full-Text Eligibility Screening
+
+The complete text of each of the 208 candidate studies was reviewed against
+the predefined inclusion and exclusion criteria.
+
+Studies were excluded when they:
+
+- did not contain a recognizable fuzzing-style workflow;
+- were only weakly related to fuzzing;
+- used AI, ML, DL, or LLMs to improve fuzzing of conventional software rather
+  than fuzzing AI systems;
+- were outside the scope of AI-system testing;
+- lacked sufficient methodological or evaluation detail; or
+- were short or incomplete studies that could not support systematic
+  annotation.
+
+After full-text eligibility screening, **127 studies** were retained as
+eligible primary-study candidates.
+
+The 208 candidate studies also formed the input to the full-text eligibility
+review and LLM-assisted annotation workflow described on the
+[LLM-Assisted Annotation page]({{ site.baseurl }}/methodology/llm-annotation.html).
+
+## Duplicate-Version Removal
+
+During the final consistency check, we identified two duplicate study
+versions in which both a preprint and a later published version of the same
+work appeared in the corpus.
+
+For each duplicate pair, we retained the published or more complete version
+and removed the duplicate version.
+
+This final step reduced the corpus from **127 to 125 primary studies**.
+
+---
+
+## Final Study-Selection Outcome
+
+The complete selection process can be summarized as follows:
+
+```text
+Initial records: 3,905
+        ↓
+After metadata normalization and deduplication: 1,996
+        ↓
+After Stage 1 automated filtering: 1,365
+        ↓
+After Stage 2 precision tightening: 187
+        ↓
+After manual title and abstract screening: 45
+        ↓
+Retained through snowballing: 167
+        ↓
+Combined candidate corpus: 212
+        ↓
+After quality and eligibility assessment: 208
+        ↓
+After full-text eligibility screening: 127
+        ↓
+After duplicate-version removal: 125 primary studies
+---
+
+## Summary of Study Counts
 
 | Selection stage | Number of records/studies |
 |---|---:|
+| Initial records collected | 3,905 |
 | Unique records after deduplication | 1,996 |
 | After Stage 1 automated filtering | 1,365 |
 | After Stage 2 precision tightening | 187 |
@@ -157,3 +234,6 @@ intermediate snowballing results are available on the
 | Snowballing candidates after automated filtering | 254 |
 | Retained after manual snowballing review | 167 |
 | Combined candidate corpus | 212 |
+| After quality and eligibility assessment | 208 |
+| After full-text eligibility screening | 127 |
+| Final primary studies | **125** |
