@@ -32,6 +32,13 @@ The workflow consisted of the following stages:
 6. disagreement documentation and resolution; and
 7. finalization of the analysis-ready dataset.
 
+## Annotation Pipeline
+
+![LLM-assisted annotation and manual-validation pipeline]({{ site.baseurl }}/assets/images/annotation-pipeline.png)
+
+*Figure 1. LLM-assisted annotation and two-stage human-validation workflow
+used to construct the final analysis-ready dataset.*
+
 ## Full-Text Extraction
 
 The original PDF of each candidate study served as the primary evidence source.
