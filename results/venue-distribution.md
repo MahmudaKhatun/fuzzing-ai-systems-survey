@@ -29,9 +29,11 @@ empirical studies and extended evaluations.
 
 ## Detailed Venue Distribution
 
-The complete venue-level distribution is presented below. The reference
-identifiers correspond to the BibTeX keys used in the survey repository and
-will be linked to the complete primary-study list.
+The complete venue-level distribution is presented below. Each paper identifier
+(PID) links to the corresponding entry in the
+[Primary Studies catalogue]({{ site.baseurl }}/results/primary-studies.html),
+which provides the full title, authors, publication year, venue, BibTeX key,
+and DOI or publication link.
 
 <details open>
 <summary><strong>Conference, Proceedings, and Preprint Venues — 87 studies</strong></summary>
@@ -43,7 +45,7 @@ will be linked to the complete primary-study list.
 <tr>
 <th>Venue</th>
 <th style="text-align:center;"># Studies</th>
-<th>Reference identifiers</th>
+<th>Primary studies</th>
 </tr>
 </thead>
 
@@ -52,175 +54,175 @@ will be linked to the complete primary-study list.
 <tr>
 <td><strong>ISSTA</strong></td>
 <td style="text-align:center;">13</td>
-<td>go_towards_2024, deng_large_2023, xie2022docter, pang2022mdpfuzz, zhang_predoo_2021, guan_large_2024, wang_dance_2024, ma_fuzzing_2023, xie2019deephunter, eniser_metamorphic_2022, tizpaz-niari_detecting_2020, shen2024acetest, zohdinasab_deepatash_2023</td>
+<td><a href="{{ site.baseurl }}/results/primary-studies.html#p005">P005</a>, <a href="{{ site.baseurl }}/results/primary-studies.html#p015">P015</a>, <a href="{{ site.baseurl }}/results/primary-studies.html#p017">P017</a>, <a href="{{ site.baseurl }}/results/primary-studies.html#p019">P019</a>, <a href="{{ site.baseurl }}/results/primary-studies.html#p021">P021</a>, <a href="{{ site.baseurl }}/results/primary-studies.html#p023">P023</a>, <a href="{{ site.baseurl }}/results/primary-studies.html#p026">P026</a>, <a href="{{ site.baseurl }}/results/primary-studies.html#p028">P028</a>, <a href="{{ site.baseurl }}/results/primary-studies.html#p032">P032</a>, <a href="{{ site.baseurl }}/results/primary-studies.html#p041">P041</a>, <a href="{{ site.baseurl }}/results/primary-studies.html#p045">P045</a>, <a href="{{ site.baseurl }}/results/primary-studies.html#p113">P113</a>, <a href="{{ site.baseurl }}/results/primary-studies.html#p169">P169</a></td>
 </tr>
 
 <tr>
 <td><strong>ICSE</strong></td>
 <td style="text-align:center;">13</td>
-<td>zhang_your_fix_2025, gu_muffin_2022, wei2022freefuzz, deng_large_2024, yang_fuzzing_2023, schumi_exais_2022, luo_graph-based_2021, wang_robot_2021, limpanukorn_fuzzing_2025, he_curiosity-driven_2024, you_regression_2023, gao_fuzz_2020, tappler_learning_2024</td>
+<td><a href="{{ site.baseurl }}/results/primary-studies.html#p002">P002</a>, <a href="{{ site.baseurl }}/results/primary-studies.html#p009">P009</a>, <a href="{{ site.baseurl }}/results/primary-studies.html#p010">P010</a>, <a href="{{ site.baseurl }}/results/primary-studies.html#p013">P013</a>, <a href="{{ site.baseurl }}/results/primary-studies.html#p016">P016</a>, <a href="{{ site.baseurl }}/results/primary-studies.html#p020">P020</a>, <a href="{{ site.baseurl }}/results/primary-studies.html#p029">P029</a>, <a href="{{ site.baseurl }}/results/primary-studies.html#p030">P030</a>, <a href="{{ site.baseurl }}/results/primary-studies.html#p034">P034</a>, <a href="{{ site.baseurl }}/results/primary-studies.html#p035">P035</a>, <a href="{{ site.baseurl }}/results/primary-studies.html#p038">P038</a>, <a href="{{ site.baseurl }}/results/primary-studies.html#p058">P058</a>, <a href="{{ site.baseurl }}/results/primary-studies.html#p164">P164</a></td>
 </tr>
 
 <tr>
 <td><strong>arXiv</strong></td>
 <td style="text-align:center;">10</td>
-<td>shen_optimization-aware_2025, qin_evaluating_2025, yang_may_2025, naziri_testing_2026, liu_confl_2023, kang_skipfuzz_2022, chen_xmutant_2025, li_many-objective_2024, gupta_robust_2024, pham_perception-guided_2024</td>
+<td><a href="{{ site.baseurl }}/results/primary-studies.html#p077">P077</a>, <a href="{{ site.baseurl }}/results/primary-studies.html#p080">P080</a>, <a href="{{ site.baseurl }}/results/primary-studies.html#p082">P082</a>, <a href="{{ site.baseurl }}/results/primary-studies.html#p100">P100</a>, <a href="{{ site.baseurl }}/results/primary-studies.html#p111">P111</a>, <a href="{{ site.baseurl }}/results/primary-studies.html#p114">P114</a>, <a href="{{ site.baseurl }}/results/primary-studies.html#p152">P152</a>, <a href="{{ site.baseurl }}/results/primary-studies.html#p154">P154</a>, <a href="{{ site.baseurl }}/results/primary-studies.html#p158">P158</a>, <a href="{{ site.baseurl }}/results/primary-studies.html#p197">P197</a></td>
 </tr>
 
 <tr>
 <td><strong>ASE</strong></td>
 <td style="text-align:center;">10</td>
-<td>zou_mutation-based_2024, missaoui_semantic_2023, xie_coverage-guided_2019, zhang2023mlirsmith, liu_qatest_2022, zhang2018deeproad, hu_deepmutation_2019, sun_interleaved_2025, zhao_hfuzzer_2025, riccio_deepmetis_2021</td>
+<td><a href="{{ site.baseurl }}/results/primary-studies.html#p014">P014</a>, <a href="{{ site.baseurl }}/results/primary-studies.html#p025">P025</a>, <a href="{{ site.baseurl }}/results/primary-studies.html#p031">P031</a>, <a href="{{ site.baseurl }}/results/primary-studies.html#p036">P036</a>, <a href="{{ site.baseurl }}/results/primary-studies.html#p039">P039</a>, <a href="{{ site.baseurl }}/results/primary-studies.html#p049">P049</a>, <a href="{{ site.baseurl }}/results/primary-studies.html#p060">P060</a>, <a href="{{ site.baseurl }}/results/primary-studies.html#p079">P079</a>, <a href="{{ site.baseurl }}/results/primary-studies.html#p122">P122</a>, <a href="{{ site.baseurl }}/results/primary-studies.html#p178">P178</a></td>
 </tr>
 
 <tr>
 <td><strong>QRS / QRS Companion</strong></td>
 <td style="text-align:center;">7</td>
-<td>lin_deepdiffer_2023, yu_adversarial_2025, chen_difuzznmt_2025, cai_cgfuzz_2024, li_coverage-guided_2025, teng_deephc_2023, li_tsdtest_2022</td>
+<td><a href="{{ site.baseurl }}/results/primary-studies.html#p091">P091</a>, <a href="{{ site.baseurl }}/results/primary-studies.html#p147">P147</a>, <a href="{{ site.baseurl }}/results/primary-studies.html#p193">P193</a>, <a href="{{ site.baseurl }}/results/primary-studies.html#p096">P096</a>, <a href="{{ site.baseurl }}/results/primary-studies.html#p148">P148</a>, <a href="{{ site.baseurl }}/results/primary-studies.html#p167">P167</a>, <a href="{{ site.baseurl }}/results/primary-studies.html#p200">P200</a></td>
 </tr>
 
 <tr>
 <td><strong>FSE</strong></td>
 <td style="text-align:center;">6</td>
-<td>liu_neuri_2023, deng_fuzzing_2022, du_deepstellar_2019, guo_dlfuzz_2018, zhang_deepsearch_2020, ma_mode_2018</td>
+<td><a href="{{ site.baseurl }}/results/primary-studies.html#p006">P006</a>, <a href="{{ site.baseurl }}/results/primary-studies.html#p008">P008</a>, <a href="{{ site.baseurl }}/results/primary-studies.html#p033">P033</a>, <a href="{{ site.baseurl }}/results/primary-studies.html#p042">P042</a>, <a href="{{ site.baseurl }}/results/primary-studies.html#p044">P044</a>, <a href="{{ site.baseurl }}/results/primary-studies.html#p050">P050</a></td>
 </tr>
 
 <tr>
 <td><strong>ISSRE</strong></td>
 <td style="text-align:center;">3</td>
-<td>ma_deepmutation_2018, li2020avfuzzer, wang_fuzzing_2023</td>
+<td><a href="{{ site.baseurl }}/results/primary-studies.html#p051">P051</a>, <a href="{{ site.baseurl }}/results/primary-studies.html#p069">P069</a>, <a href="{{ site.baseurl }}/results/primary-studies.html#p133">P133</a></td>
 </tr>
 
 <tr>
 <td><strong>OOPSLA</strong></td>
 <td style="text-align:center;">3</td>
-<td>liu2022tzer, yang_whitefox_2024, zhang_llm-powered_2026</td>
+<td><a href="{{ site.baseurl }}/results/primary-studies.html#p046">P046</a>, <a href="{{ site.baseurl }}/results/primary-studies.html#p090">P090</a>, <a href="{{ site.baseurl }}/results/primary-studies.html#p099">P099</a></td>
 </tr>
 
 <tr>
 <td><strong>CSCWD</strong></td>
 <td style="text-align:center;">2</td>
-<td>lin_scenariofuzz-llm_2025, tang_uncovered_2024</td>
+<td><a href="{{ site.baseurl }}/results/primary-studies.html#p127">P127</a>, <a href="{{ site.baseurl }}/results/primary-studies.html#p162">P162</a></td>
 </tr>
 
 <tr>
 <td><strong>APLAS</strong></td>
 <td style="text-align:center;">1</td>
-<td>hur_torchprobe_2023</td>
+<td><a href="{{ site.baseurl }}/results/primary-studies.html#p089">P089</a></td>
 </tr>
 
 <tr>
 <td><strong>APSEC</strong></td>
 <td style="text-align:center;">1</td>
-<td>chen_dnn_2024</td>
+<td><a href="{{ site.baseurl }}/results/primary-studies.html#p153">P153</a></td>
 </tr>
 
 <tr>
 <td><strong>ASENS</strong></td>
 <td style="text-align:center;">1</td>
-<td>li_dkfuzz_2025</td>
+<td><a href="{{ site.baseurl }}/results/primary-studies.html#p116">P116</a></td>
 </tr>
 
 <tr>
 <td><strong>ASPLOS</strong></td>
 <td style="text-align:center;">1</td>
-<td>liu2023nnsmith</td>
+<td><a href="{{ site.baseurl }}/results/primary-studies.html#p001">P001</a></td>
 </tr>
 
 <tr>
 <td><strong>CCS</strong></td>
 <td style="text-align:center;">1</td>
-<td>kim2022drivefuzz</td>
+<td><a href="{{ site.baseurl }}/results/primary-studies.html#p066">P066</a></td>
 </tr>
 
 <tr>
 <td><strong>CODASPY</strong></td>
 <td style="text-align:center;">1</td>
-<td>garcia_brittle_2021</td>
+<td><a href="{{ site.baseurl }}/results/primary-studies.html#p043">P043</a></td>
 </tr>
 
 <tr>
 <td><strong>DAC</strong></td>
 <td style="text-align:center;">1</td>
-<td>ma_hdtest_2021</td>
+<td><a href="{{ site.baseurl }}/results/primary-studies.html#p018">P018</a></td>
 </tr>
 
 <tr>
 <td><strong>DSA</strong></td>
 <td style="text-align:center;">1</td>
-<td>lu_rgchaser_2022</td>
+<td><a href="{{ site.baseurl }}/results/primary-studies.html#p136">P136</a></td>
 </tr>
 
 <tr>
 <td><strong>DSC</strong></td>
 <td style="text-align:center;">1</td>
-<td>yang_enhancing_2025</td>
+<td><a href="{{ site.baseurl }}/results/primary-studies.html#p104">P104</a></td>
 </tr>
 
 <tr>
 <td><strong>ICIST</strong></td>
 <td style="text-align:center;">1</td>
-<td>yuen_asdf_2023</td>
+<td><a href="{{ site.baseurl }}/results/primary-studies.html#p170">P170</a></td>
 </tr>
 
 <tr>
 <td><strong>ICPADS</strong></td>
 <td style="text-align:center;">1</td>
-<td>jin_towards_2025</td>
+<td><a href="{{ site.baseurl }}/results/primary-studies.html#p125">P125</a></td>
 </tr>
 
 <tr>
 <td><strong>ICRSA</strong></td>
 <td style="text-align:center;">1</td>
-<td>wu_fuzzing_2023</td>
+<td><a href="{{ site.baseurl }}/results/primary-studies.html#p024">P024</a></td>
 </tr>
 
 <tr>
 <td><strong>ICSME</strong></td>
 <td style="text-align:center;">1</td>
-<td>cao_nuwa_2025</td>
+<td><a href="{{ site.baseurl }}/results/primary-studies.html#p081">P081</a></td>
 </tr>
 
 <tr>
 <td><strong>IJCNN</strong></td>
 <td style="text-align:center;">1</td>
-<td>ye_dance_2022</td>
+<td><a href="{{ site.baseurl }}/results/primary-studies.html#p202">P202</a></td>
 </tr>
 
 <tr>
 <td><strong>NaNA</strong></td>
 <td style="text-align:center;">1</td>
-<td>lin_deep2fuzz_2025</td>
+<td><a href="{{ site.baseurl }}/results/primary-studies.html#p146">P146</a></td>
 </tr>
 
 <tr>
 <td><strong>PACMSE</strong></td>
 <td style="text-align:center;">1</td>
-<td>tong_directed_2025</td>
+<td><a href="{{ site.baseurl }}/results/primary-studies.html#p083">P083</a></td>
 </tr>
 
 <tr>
 <td><strong>SANER</strong></td>
 <td style="text-align:center;">1</td>
-<td>zhou_deepcon_2021</td>
+<td><a href="{{ site.baseurl }}/results/primary-studies.html#p182">P182</a></td>
 </tr>
 
 <tr>
 <td><strong>SMC</strong></td>
 <td style="text-align:center;">1</td>
-<td>liao_multi-agent_2025</td>
+<td><a href="{{ site.baseurl }}/results/primary-studies.html#p103">P103</a></td>
 </tr>
 
 <tr>
 <td><strong>TrustCom</strong></td>
 <td style="text-align:center;">1</td>
-<td>cui_gmfuzz_2025</td>
+<td><a href="{{ site.baseurl }}/results/primary-studies.html#p145">P145</a></td>
 </tr>
 
 <tr>
 <td><strong>WWW</strong></td>
 <td style="text-align:center;">1</td>
-<td>quan_tensorjsfuzz_2025</td>
+<td><a href="{{ site.baseurl }}/results/primary-studies.html#p003">P003</a></td>
 </tr>
 
 <tr>
@@ -236,7 +238,6 @@ will be linked to the complete primary-study list.
 
 </details>
 
-
 <details open>
 <summary><strong>Journal and Transaction Venues — 38 studies</strong></summary>
 
@@ -247,7 +248,7 @@ will be linked to the complete primary-study list.
 <tr>
 <th>Venue</th>
 <th style="text-align:center;"># Studies</th>
-<th>Reference identifiers</th>
+<th>Primary studies</th>
 </tr>
 </thead>
 
@@ -256,103 +257,103 @@ will be linked to the complete primary-study list.
 <tr>
 <td><strong>TSE</strong></td>
 <td style="text-align:center;">8</td>
-<td>yuan_provably_2024, zhong_neural_2023, ou_mirrorfuzz_2025, ji_moco_2025, wang_d3_2025, zhang_cagfuzz_2022, guo_spatial_2026, aghababaeyan_diffgan_2025</td>
+<td><a href="{{ site.baseurl }}/results/primary-studies.html#p061">P061</a>, <a href="{{ site.baseurl }}/results/primary-studies.html#p068">P068</a>, <a href="{{ site.baseurl }}/results/primary-studies.html#p078">P078</a>, <a href="{{ site.baseurl }}/results/primary-studies.html#p088">P088</a>, <a href="{{ site.baseurl }}/results/primary-studies.html#p095">P095</a>, <a href="{{ site.baseurl }}/results/primary-studies.html#p143">P143</a>, <a href="{{ site.baseurl }}/results/primary-studies.html#p144">P144</a>, <a href="{{ site.baseurl }}/results/primary-studies.html#p156">P156</a></td>
 </tr>
 
 <tr>
 <td><strong>TOSEM</strong></td>
 <td style="text-align:center;">8</td>
-<td>chen_s_2025, shiri_harzevili_history-driven_2025, zhang_fumi_2026, liu_generation-based_2024, li_comet_2023, ji_taefuzz_2025, huang_neuron_2025, wang_context-aware_2025</td>
+<td><a href="{{ site.baseurl }}/results/primary-studies.html#p086">P086</a>, <a href="{{ site.baseurl }}/results/primary-studies.html#p087">P087</a>, <a href="{{ site.baseurl }}/results/primary-studies.html#p106">P106</a>, <a href="{{ site.baseurl }}/results/primary-studies.html#p119">P119</a>, <a href="{{ site.baseurl }}/results/primary-studies.html#p120">P120</a>, <a href="{{ site.baseurl }}/results/primary-studies.html#p137">P137</a>, <a href="{{ site.baseurl }}/results/primary-studies.html#p157">P157</a>, <a href="{{ site.baseurl }}/results/primary-studies.html#p160">P160</a></td>
 </tr>
 
 <tr>
 <td><strong>IST</strong></td>
 <td style="text-align:center;">4</td>
-<td>liu_deepcnp_2025, tao_dlregion_2023, ye_ctrlfuzz_2025, bai_criticalfuzz_2024</td>
+<td><a href="{{ site.baseurl }}/results/primary-studies.html#p004">P004</a>, <a href="{{ site.baseurl }}/results/primary-studies.html#p007">P007</a>, <a href="{{ site.baseurl }}/results/primary-studies.html#p012">P012</a>, <a href="{{ site.baseurl }}/results/primary-studies.html#p027">P027</a></td>
 </tr>
 
 <tr>
 <td><strong>JSS</strong></td>
 <td style="text-align:center;">4</td>
-<td>zhang_ache-fuzz_2026, zhao_bci-fuzz_2026, wan_coverage-guided_2024, guo_semantic-guided_2024</td>
+<td><a href="{{ site.baseurl }}/results/primary-studies.html#p011">P011</a>, <a href="{{ site.baseurl }}/results/primary-studies.html#p076">P076</a>, <a href="{{ site.baseurl }}/results/primary-studies.html#p165">P165</a>, <a href="{{ site.baseurl }}/results/primary-studies.html#p198">P198</a></td>
 </tr>
 
 <tr>
 <td><strong>TR</strong></td>
 <td style="text-align:center;">2</td>
-<td>dai_dfuzzer_2024, wei_cocofuzzing_2021</td>
+<td><a href="{{ site.baseurl }}/results/primary-studies.html#p142">P142</a>, <a href="{{ site.baseurl }}/results/primary-studies.html#p180">P180</a></td>
 </tr>
 
 <tr>
 <td><strong>Applied Intelligence</strong></td>
 <td style="text-align:center;">1</td>
-<td>sun_deepmc_2023</td>
+<td><a href="{{ site.baseurl }}/results/primary-studies.html#p201">P201</a></td>
 </tr>
 
 <tr>
 <td><strong>Computers &amp; Security</strong></td>
 <td style="text-align:center;">1</td>
-<td>qin_fuzzing-based_2022</td>
+<td><a href="{{ site.baseurl }}/results/primary-studies.html#p208">P208</a></td>
 </tr>
 
 <tr>
 <td><strong>Cybersecurity</strong></td>
 <td style="text-align:center;">1</td>
-<td>zheng_automating_2026</td>
+<td><a href="{{ site.baseurl }}/results/primary-studies.html#p101">P101</a></td>
 </tr>
 
 <tr>
 <td><strong>IET Software</strong></td>
 <td style="text-align:center;">1</td>
-<td>jin_reinseed_2025</td>
+<td><a href="{{ site.baseurl }}/results/primary-studies.html#p130">P130</a></td>
 </tr>
 
 <tr>
 <td><strong>IJIS</strong></td>
 <td style="text-align:center;">1</td>
-<td>ye_ex2_2022</td>
+<td><a href="{{ site.baseurl }}/results/primary-studies.html#p174">P174</a></td>
 </tr>
 
 <tr>
 <td><strong>Information Sciences</strong></td>
 <td style="text-align:center;">1</td>
-<td>park_mixed_2022</td>
+<td><a href="{{ site.baseurl }}/results/primary-studies.html#p172">P172</a></td>
 </tr>
 
 <tr>
 <td><strong>JMS</strong></td>
 <td style="text-align:center;">1</td>
-<td>yegorov_python_2024</td>
+<td><a href="{{ site.baseurl }}/results/primary-studies.html#p121">P121</a></td>
 </tr>
 
 <tr>
 <td><strong>JNCA</strong></td>
 <td style="text-align:center;">1</td>
-<td>ye_definder_2025</td>
+<td><a href="{{ site.baseurl }}/results/primary-studies.html#p022">P022</a></td>
 </tr>
 
 <tr>
 <td><strong>Neurocomputing</strong></td>
 <td style="text-align:center;">1</td>
-<td>park_gradfuzz_2023</td>
+<td><a href="{{ site.baseurl }}/results/primary-studies.html#p040">P040</a></td>
 </tr>
 
 <tr>
 <td><strong>PLOS ONE</strong></td>
 <td style="text-align:center;">1</td>
-<td>yang2022malfuzz</td>
+<td><a href="{{ site.baseurl }}/results/primary-studies.html#p140">P140</a></td>
 </tr>
 
 <tr>
 <td><strong>TNNLS</strong></td>
 <td style="text-align:center;">1</td>
-<td>yu_white-box_2023</td>
+<td><a href="{{ site.baseurl }}/results/primary-studies.html#p176">P176</a></td>
 </tr>
 
 <tr>
 <td><strong>TNSE</strong></td>
 <td style="text-align:center;">1</td>
-<td>guo_coverage_2021</td>
+<td><a href="{{ site.baseurl }}/results/primary-studies.html#p204">P204</a></td>
 </tr>
 
 <tr>
