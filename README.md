@@ -30,6 +30,19 @@ that complement the main paper.
 
 The replication package is available on Zenodo: https://doi.org/10.5281/zenodo.21022814
 
+It includes:
+
+- the selected-study list;
+- extracted study metadata;
+- annotation schema;
+- normalized taxonomy labels;
+- intermediate screening files;
+- LLM-assisted annotation outputs;
+- figure sources; and
+- analysis scripts.
+
+Full-text PDFs of the reviewed studies are not redistributed because of
+copyright restrictions.
 
 ## Primary Studies
 
