@@ -27,6 +27,7 @@ that complement the main paper.
 
 ## Repository Contents
 
+```text
 background/     Extended background and taxonomy definitions
 methodology/    Search, screening, annotation, and validation details
 results/        Extended analyses and clickable study-level mappings
