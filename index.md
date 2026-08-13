@@ -49,6 +49,16 @@ research directions.
 - [Observation-to-Take-away Mapping]({{ site.baseurl }}/discussion/observation-takeaway-mapping.html)
 - [Extended Challenge Synthesis]({{ site.baseurl }}/discussion/challenge-synthesis.html)
 
+## Survey Paper
+
+The submitted preprint version of the survey paper is available through the following public records:
+
+- [Preprints.org version](https://doi.org/10.20944/preprints202608.0874.v1)
+- [HAL Open Archive version](https://hal.science/hal-05695635)
+
+This version corresponds to the manuscript submitted to *ACM Computing Surveys*
+and may differ from the final published version after peer review.
+
 ## Replication Package
 
 The replication package is available on
@@ -63,4 +73,19 @@ copyright restrictions.
 
 ## Citation
 
-Citation information will be added after publication.
+If you use this survey, companion website, or replication package, please cite:
+
+Mahmuda Khatun, Mostafijur Rahman Akhond, Wuyang Dai, Gias Uddin, and Song Wang. 2026. *Fuzzing AI Systems: Foundations, Techniques, and Open Challenges*. Preprints.org. https://doi.org/10.20944/preprints202608.0874.v1
+
+```bibtex
+@misc{khatun2026fuzzing,
+  title     = {Fuzzing AI Systems: Foundations, Techniques, and Open Challenges},
+  author    = {Khatun, Mahmuda and Akhond, Mostafijur Rahman and Dai, Wuyang and Uddin, Gias and Wang, Song},
+  year      = {2026},
+  publisher = {Preprints.org},
+  doi       = {10.20944/preprints202608.0874.v1},
+  url       = {https://www.preprints.org/manuscript/202608.0874/v1},
+  note      = {Also available at HAL: https://hal.science/hal-05695635}
+}
+```
+
