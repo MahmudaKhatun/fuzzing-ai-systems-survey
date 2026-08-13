@@ -61,9 +61,10 @@ https://mahmudakhatun.github.io/fuzzing-ai-systems-survey/results/primary-studie
 
 ## Survey Paper
 
-The submitted preprint version of the survey paper is available on HAL Open Archive:
+The submitted preprint version of the survey paper is available through the following public records:
 
-- [Fuzzing AI Systems: Foundations, Techniques, and Open Challenges](https://hal.science/hal-05695635)
+- [Preprints.org version](https://doi.org/10.20944/preprints202608.0874.v1)
+- [HAL Open Archive version](https://hal.science/hal-05695635)
 
 This version corresponds to the manuscript submitted to *ACM Computing Surveys*
 and may differ from the final published version after peer review.
@@ -72,16 +73,17 @@ and may differ from the final published version after peer review.
 
 If you use this survey, companion website, or replication package, please cite:
 
-Mahmuda Khatun, Mostafijur Rahman Akhond, Wuyang Dai, Gias Uddin, and Song Wang. 2026. *Fuzzing AI Systems: Foundations, Techniques, and Open Challenges*. HAL Open Archive. https://hal.science/hal-05695635
+Mahmuda Khatun, Mostafijur Rahman Akhond, Wuyang Dai, Gias Uddin, and Song Wang. 2026. *Fuzzing AI Systems: Foundations, Techniques, and Open Challenges*. Preprints.org. https://doi.org/10.20944/preprints202608.0874.v1
 
 ```bibtex
 @misc{khatun2026fuzzing,
-  title        = {Fuzzing AI Systems: Foundations, Techniques, and Open Challenges},
-  author       = {Khatun, Mahmuda and Akhond, Mostafijur Rahman and Dai, Wuyang and Uddin, Gias and Wang, Song},
-  year         = {2026},
-  howpublished = {HAL Open Archive},
-  url          = {https://hal.science/hal-05695635},
-  note         = {HAL Id: hal-05695635}
+  title     = {Fuzzing AI Systems: Foundations, Techniques, and Open Challenges},
+  author    = {Khatun, Mahmuda and Akhond, Mostafijur Rahman and Dai, Wuyang and Uddin, Gias and Wang, Song},
+  year      = {2026},
+  publisher = {Preprints.org},
+  doi       = {10.20944/preprints202608.0874.v1},
+  url       = {https://www.preprints.org/manuscript/202608.0874/v1},
+  note      = {Also available at HAL: https://hal.science/hal-05695635}
 }
 ```
 Citation information will be updated after publication.
