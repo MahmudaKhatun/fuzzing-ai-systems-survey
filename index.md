@@ -53,7 +53,7 @@ research directions.
 
 The submitted preprint version of the survey paper is available through the following public records:
 
-- [Preprints.org version](https://doi.org/10.20944/preprints202608.0874.v1)
+- [Preprints.org version](https://www.preprints.org/manuscript/202608.0874/v1)
 - [HAL Open Archive version](https://hal.science/hal-05695635)
 
 This version corresponds to the manuscript submitted to *ACM Computing Surveys*
@@ -75,7 +75,7 @@ copyright restrictions.
 
 If you use this survey, companion website, or replication package, please cite:
 
-Mahmuda Khatun, Mostafijur Rahman Akhond, Wuyang Dai, Gias Uddin, and Song Wang. 2026. *Fuzzing AI Systems: Foundations, Techniques, and Open Challenges*. Preprints.org. https://doi.org/10.20944/preprints202608.0874.v1
+Mahmuda Khatun, Mostafijur Rahman Akhond, Wuyang Dai, Gias Uddin, and Song Wang. 2026. *Fuzzing AI Systems: Foundations, Techniques, and Open Challenges*. Preprints.org. https://www.preprints.org/manuscript/202608.0874/v1
 
 ```bibtex
 @misc{khatun2026fuzzing,
