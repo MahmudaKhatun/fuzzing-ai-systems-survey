@@ -75,7 +75,7 @@ copyright restrictions.
 
 If you use this survey, companion website, or replication package, please cite:
 
-Mahmuda Khatun, Mostafijur Rahman Akhond, Wuyang Dai, Gias Uddin, and Song Wang. 2026. *Fuzzing AI Systems: Foundations, Techniques, and Open Challenges*. Preprints.org. https://www.preprints.org/manuscript/202608.0874/v1
+Mahmuda Khatun, Mostafijur Rahman Akhond, Wuyang Dai, Gias Uddin, and Song Wang. 2026. *Fuzzing AI Systems: Foundations, Techniques, and Open Challenges*. Preprints.org. https://www.preprints.org/manuscript/202608.0874/v1 
 
 ```bibtex
 @misc{khatun2026fuzzing,
