@@ -50,6 +50,15 @@ The complete catalogue of the 125 included studies is available on the companion
 
 https://mahmudakhatun.github.io/fuzzing-ai-systems-survey/results/primary-studies.html
 
+## Survey Paper
+
+The submitted preprint version of the survey paper is available here:
+
+- [HAL Open Archive version](https://hal.science/hal-05695635)
+
+This version corresponds to the manuscript submitted to *ACM Computing Surveys*
+and may differ from the final published version after peer review.
+
 ## Citation
 
 Citation information will be added after publication.
