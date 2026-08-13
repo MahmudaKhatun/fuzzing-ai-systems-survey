@@ -25,6 +25,15 @@ The website provides extended background, detailed methodology, study-level
 mappings, taxonomy definitions, additional analyses, and discussion materials
 that complement the main paper.
 
+## Repository Contents
+
+```text
+background/     Extended background and taxonomy definitions
+methodology/    Search, screening, annotation, and validation details
+results/        Extended analyses and clickable study-level mappings
+discussion/     Observation, take-away, and challenge synthesis
+assets/         Figures and website resources
+```
 
 ## Replication Package
 
@@ -74,18 +83,10 @@ Mahmuda Khatun, Mostafijur Rahman Akhond, Wuyang Dai, Gias Uddin, and Song Wang.
   url          = {https://hal.science/hal-05695635},
   note         = {HAL Id: hal-05695635}
 }
-
+```
 Citation information will be updated after publication.
 
 ## License
 
 The replication materials are released under the Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0) license.
 
-## Repository Contents
-
-```text
-background/     Extended background and taxonomy definitions
-methodology/    Search, screening, annotation, and validation details
-results/        Extended analyses and clickable study-level mappings
-discussion/     Observation, take-away, and challenge synthesis
-assets/         Figures and website resources
